@@ -58,4 +58,30 @@
  }
 }
 
+@include respond-to('small'){
+ grid-template-columns: 1fr min-content minmax(590rem, auto) min-content 1fr;
+  &__lblock{
+   grid-column: 2/3;
+   grid-row: 1/2;
+    
+  }
+  &__hamburger{
+   display: none;
+  }
+ &__dropl{
+   
+  display: flex;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  align-items: center;
+  background-color: var(--alpha);
+  color: var(--delta);
+  li{
+   margin-left: 20rem;
+  }
+ }
+  &__icons{
+   grid-column: 4/5;
+  }
+}
 }

@@ -501,4 +501,31 @@ h1 {
 .nav__toggle:checked ~ .nav__dropl li {
   padding: 15rem 10rem;
   border-bottom: 1px var(--delta) solid;
+}
+@media (min-width: 767px) {
+  .nav {
+    grid-template-columns: 1fr -webkit-min-content minmax(590rem, auto) -webkit-min-content 1fr;
+    grid-template-columns: 1fr min-content minmax(590rem, auto) min-content 1fr;
+  }
+  .nav__lblock {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .nav__hamburger {
+    display: none;
+  }
+  .nav__dropl {
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-items: center;
+    background-color: var(--alpha);
+    color: var(--delta);
+  }
+  .nav__dropl li {
+    margin-left: 20rem;
+  }
+  .nav__icons {
+    grid-column: 4/5;
+  }
 }/*# sourceMappingURL=main.css.map */
