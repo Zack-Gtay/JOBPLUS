@@ -4,49 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job-Plus</title>
     <link rel="stylesheet" href="./SASS/main.css" />
-
-    <title>JOB-PLUS</title>
   </head>
   <body>
-    <nav class="nav">
-      <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
+    <div class="nav">
+      <input
+        type="checkbox"
+        value=""
+        id="hamburger"
+        class="nav__toggle"
+        hidden
+      />
       <ul class="nav__lblock">
         <li class="nav__hamburger">
           <label for="hamburger"
             ><img src="./images/hamburger.svg" alt=""
           /></label>
         </li>
-        <li class="nav__logo"><a href="#">JOBPLUS</a></li>
+        <li class="nav__logo">
+          <a href="#">JobPlus</a>
+        </li>
       </ul>
       <ul class="nav__icons">
         <li>
-          <a href=""><img src="./images/magnify.svg" alt="" /></a>
+          <a href="#"><img src="./images/magnify.svg" alt="" /></a>
         </li>
         <li>
-          <a href=""><img src="./images/notify-active.svg" alt="" /></a>
+          <a href="#"><img src="./images/notify-active.svg" alt="" /></a>
         </li>
         <li>
-          <a href="">
+          <a href="#">
             <img src="./images/saved.svg" alt="" />
             <span class="nav__savedcount">1</span>
           </a>
         </li>
         <li>
-          <a href=""><img src="./images/profile.svg" alt="" /></a>
+          <a href="#"><img src="./images/profile.svg" alt="" /></a>
         </li>
         <li>
-          <a href=""><img src="./images/exit.svg" alt="" /></a>
+          <a href="#"><img src="./images/exit.svg" alt="" /></a>
         </li>
       </ul>
       <ul class="nav__dropl">
-        <a href=""><li>Home</li></a>
-        <a href=""><li>job listing</li></a>
-        <a href=""><li>Job applications</li></a>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Job Listing</li></a>
+        <a href="#"><li>Job Applications</li></a>
       </ul>
-    </nav>
-    <div class="herosection__container">
-      <h3>Hello all, This is just a test</h3>
+    </div>
+    <div class="hero hero__bgimg">
+      <div class="hero__wrap">
+        <h1>Connecting candidates with their dream jobs.<h1></h1>
+        <div class="form">
+          <div class="form__group">
+            <label for="" class="form__label form__label__light">What</label>
+            <input type="text" class="form__field" placeholder="Job title, skill or company">
+          </div>
+          <div class="form__group">
+            <label for="" class="form__label form__label__light">Where</label>
+            <input type="text" class="form__field" placeholder="Town, city or postcode">
+          </div>
+          <div class="form__group">
+            <input type="submit" class="form__btn" value="Search">
+          </div>
+        </div>
+      </div>
+      
     </div>
   </body>
+
 </html>

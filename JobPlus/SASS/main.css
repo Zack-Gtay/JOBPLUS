@@ -9,6 +9,14 @@
   --light: #fff;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "OpenSans ExtraBold";
+  src: url(../../fonts/OpenSans-ExtraBold.ttf);
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -461,11 +469,11 @@ h1 {
   padding: 12rem;
 }
 .nav__icons {
+  display: flex;
   grid-row: 1/2;
   grid-column: 3/4;
-  display: flex;
+  padding: 10rem;
   align-items: center;
-  padding: 12rem;
 }
 .nav__icons li {
   margin-left: 20rem;
@@ -482,7 +490,7 @@ h1 {
 }
 .nav__logo {
   color: var(--delta);
-  font-weight: nold;
+  font-weight: bold;
 }
 .nav__savedcount {
   position: absolute;
@@ -516,10 +524,10 @@ h1 {
   }
   .nav__dropl {
     display: flex;
+    background-color: var(--alpha);
     grid-column: 3/4;
     grid-row: 1/2;
     align-items: center;
-    background-color: var(--alpha);
     color: var(--delta);
   }
   .nav__dropl li {
@@ -527,5 +535,63 @@ h1 {
   }
   .nav__icons {
     grid-column: 4/5;
+    grid-row: 1/2;
   }
+}
+
+.hero {
+  padding: 15rem;
+  background-color: var(--light);
+}
+.hero__bgimg {
+  background-image: url("../../images/hero-small.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.7) inset;
+}
+.hero h1 {
+  font-size: 26rem;
+  color: var(--light);
+  line-height: 30rem;
+  margin-bottom: 15rem;
+}
+@media (min-width: 767px) {
+  .hero__wrap {
+    max-width: 895rem;
+    margin: 10rem auto;
+  }
+  .herohero__bgimg {
+    background-image: url("../../images/hero-big.svg");
+  }
+  .hero h1 {
+    font-size: 38rem;
+    max-width: 500rem;
+    line-height: 40rem;
+  }
+}
+
+.form__group {
+  margin-top: 18rem;
+}
+.form__label {
+  font-size: 17rem;
+  font-weight: bold;
+  color: var(--gamma);
+}
+.form__label__light {
+  color: var(--light);
+}
+.form__field {
+  width: 100%;
+  height: 40rem;
+  padding: 10rem;
+}
+.form__btn {
+  background-color: var(--contrast);
+  border: none;
+  width: 100%;
+  color: var(--light);
+  font-weight: bold;
+  padding: 8rem;
 }/*# sourceMappingURL=main.css.map */
