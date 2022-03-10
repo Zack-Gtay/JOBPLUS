@@ -591,7 +591,23 @@ h1 {
   background-color: var(--contrast);
   border: none;
   width: 100%;
+  cursor: pointer;
   color: var(--light);
   font-weight: bold;
   padding: 8rem;
+}
+@media (min-width: 767px) {
+  .form {
+    display: flex;
+    align-items: flex-end;
+  }
+  .form__group {
+    margin-right: 10rem;
+  }
+  .form__field {
+    min-width: 350rem;
+  }
+  .form__btn {
+    padding: 11rem 15rem;
+  }
 }/*# sourceMappingURL=main.css.map */

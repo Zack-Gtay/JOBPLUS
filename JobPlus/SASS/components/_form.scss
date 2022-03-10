@@ -22,9 +22,30 @@
   background-color: var(--contrast);
   border: none;
   width: 100%;
+  cursor: pointer;
   color: var(--light);
   font-weight: bold;
   padding: 8rem;
  }
+
+ @include respond-to('small'){
+  display: flex;
+  align-items: flex-end;
+
+  &__group{
+   margin-right: 10rem;
+
+  }
+
+  &__field{
+   min-width: 350rem;
+  }
+
+  &__btn{
+   padding: 11rem 15rem;
+  }
+ }
 }
+
+
 
