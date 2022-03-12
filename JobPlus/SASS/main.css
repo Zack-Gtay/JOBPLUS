@@ -716,9 +716,15 @@ h1 {
 .cookie a {
   text-decoration: underline;
 }
+.cookie img {
+  width: 25rem;
+}
 @media (min-width: 767px) {
   .cookie {
     text-align: center;
+  }
+  .cookie img {
+    width: 25rem;
   }
 }
 

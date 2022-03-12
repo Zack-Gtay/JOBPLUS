@@ -12,9 +12,14 @@
     a{
         text-decoration: underline;
     }
-
+    img{
+        width: 25rem;
+    }
     @include respond-to('small'){
         text-align: center;
+        img{
+            width: 25rem;
+        }
     }
 }
 
