@@ -485,10 +485,12 @@ h1 {
 }
 .nav__hamburger {
   margin-right: 10rem;
+  margin-top: 5rem;
 }
 .nav__logo {
   color: var(--delta);
   font-weight: bold;
+  font-size: 25rem;
 }
 .nav__savedcount {
   position: absolute;
