@@ -707,10 +707,121 @@ h1 {
   background-color: var(--beta);
   color: var(--delta);
   padding: 12rem;
-  position: fixed;
   width: 100%;
   bottom: 40rem;
 }
 .cookie a {
   text-decoration: underline;
+}
+@media (min-width: 767px) {
+  .cookie {
+    text-align: center;
+  }
+}
+
+.listing {
+  color: var(--gamma);
+  margin: 30rem 10rem;
+}
+.listing__card {
+  border: 1px var(--beta) solid;
+  background-color: var(--light);
+  padding: 15rem;
+  border-radius: 5rem;
+  box-shadow: 1px 2px 3px 1px var(--elements);
+  margin-bottom: 20rem;
+}
+.listing__header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 5rem;
+}
+.listing__title {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  color: var(--beta);
+  font-size: 17rem;
+}
+.listing__saved {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  justify-self: right;
+}
+.listing__company {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  font-size: 14rem;
+}
+.listing__company span {
+  color: var(--beta);
+}
+.listing__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10rem;
+  margin-top: 15rem;
+  font-size: 14rem;
+}
+.listing__items li {
+  display: flex;
+}
+.listing__items li img {
+  margin-right: 7rem;
+}
+.listing__items li:nth-of-type(2) {
+  justify-self: right;
+}
+.listing__detail {
+  margin-top: 20rem;
+  font-size: 14rem;
+  line-height: 20rem;
+}
+.listing__cta {
+  font-size: 14rem;
+  text-decoration: underline;
+  text-align: right;
+  display: block;
+}
+.listing__cta--light {
+  color: var(--beta);
+}
+.listing__cta--alert {
+  color: var(--alert);
+}
+@media (min-width: 767px) {
+  .listing {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+  }
+}
+
+.filter {
+  display: none;
+}
+@media (min-width: 767px) {
+  .filter {
+    display: block;
+    margin-right: 20rem;
+  }
+  .filter__links {
+    background-color: var(--light);
+    width: 220rem;
+    padding: 15rem;
+    margin-bottom: 20rem;
+  }
+  .filter__links h1 {
+    font-size: 15rem;
+    margin-bottom: 15rem;
+  }
+  .filter__links li {
+    font-size: 15rem;
+    color: var(--beta);
+    margin-bottom: 10rem;
+  }
+  .filter__links li span {
+    color: var(--gamma);
+    font-size: 13rem;
+  }
 }

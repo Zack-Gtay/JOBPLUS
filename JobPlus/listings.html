@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job-Plus</title>
+    <link rel="stylesheet" href="./SASS/main.css" />
+  </head>
+  <body>
+    <section>
+      <div class="nav">
+      <input
+        type="checkbox"
+        value=""
+        id="hamburger"
+        class="nav__toggle"
+        hidden
+      />
+      <ul class="nav__lblock">
+        <li class="nav__hamburger">
+          <label for="hamburger"
+            ><img src="./images/hamburger.svg" alt=""
+          /></label>
+        </li>
+        <li class="nav__logo">
+          <a href="index.html">JobPlus</a>
+        </li>
+      </ul>
+      <ul class="nav__icons">
+        <li>
+          <a href="listings.html"><img src="./images/magnify.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="notification.html"><img src="./images/notify-active.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="saved_jobs.html">
+            <img src="./images/saved.svg" alt="" />
+            <span class="nav__savedcount">1</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html"><img src="./images/profile.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="login.html"><img src="./images/exit.svg" alt="" /></a>
+        </li>
+      </ul>
+      <ul class="nav__dropl">
+        <a href="index.html"><li>Home</li></a>
+        <a href="listings.html"><li>Job Listing</li></a>
+        <a href="applications.html"><li>Job Applications</li></a>
+      </ul>
+    </div>
+    <div class="hero">
+      <div class="hero__wrap">
+        
+        <div class="form">
+          <div class="form__group">
+            <label for="" class="form__label ">What</label>
+            <input type="text" class="form__field" placeholder="Job title, skill or company">
+          </div>
+          <div class="form__group">
+            <label for="" class="form__label">Where</label>
+            <input type="text" class="form__field" placeholder="Town, city or postcode">
+          </div>
+          <div class="form__group">
+            <input type="submit" class="form__btn" value="Search">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="container">
+      <div class="listing">
+          <div class="filter">
+              <div class="filter__links">
+                  <h1>Browse by sector</h1>
+                  <ul>
+                      <li>Technology <span>(14)</span></li>
+                      <li>Engineering <span>(200)</span></li>
+                      <li>Health <span>(13)</span></li>
+                  </ul>
+              </div>
+              <div class="filter__links">
+                <h1>Browse by location</h1>
+                <ul>
+                    <li>Jobs in London <span>(14)</span></li>
+                    <li>Jobs in West Mediands <span>(200)</span></li>
+                    <li>Jobs in Yorkshire <span>(13)</span></li>
+                </ul>
+            </div>
+          </div>
+          <section>
+            <div class="listing__card">
+                <header class="listing__header">
+                    <h1>Regular Affairs Senior Manager</h1>
+                    <img src="./images/star-saved.svg" class="listing__saved" alt="">
+                    <p class="listing__company">Posted by <span>Koco Media</span></p>
+                </header>
+                <ul class="listing__items">
+                    <li><img src="./images/money.svg" alt="">Salary Negotiable</li>
+                    <li><img src="./images/location.svg" alt="">Heyes, <b>Uxbridge</b> </li>
+                    <li><img src="./images/timer.svg" alt="">Contract, <b>full-time</b></li>
+                </ul>
+                <p class="listing__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies, velit quis faucibus scelerisque, risus nulla tristique sem, a condimentum mi neque quis lacus. Fusce congue massa id lacus elementum. <b>See more...</b></p>
+                <a href="" class="listing__cta">Withdraw application</a>
+            </div>
+            <div class="listing__card">
+                <header class="listing__header">
+                    <h1>Regular Affairs Senior Manager</h1>
+                    <img src="./images/star-saved.svg" class="listing__saved" alt="">
+                    <p class="listing__company">Posted by <span>Koco Media</span></p>
+                </header>
+                <ul class="listing__items">
+                    <li><img src="./images/money.svg" alt="">Salary Negotiable</li>
+                    <li><img src="./images/location.svg" alt="">Heyes, <b>Uxbridge</b> </li>
+                    <li><img src="./images/timer.svg" alt="">Contract, <b>full-time</b></li>
+                </ul>
+                <p class="listing__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies, velit quis faucibus scelerisque, risus nulla tristique sem, a condimentum mi neque quis lacus. Fusce congue massa id lacus elementum. <b>See more...</b></p>
+                <a href="" class="listing__cta">Withdraw application</a>
+            </div>
+            <div class="listing__card">
+                <header class="listing__header">
+                    <h1>Regular Affairs Senior Manager</h1>
+                    <img src="./images/star-saved.svg" class="listing__saved" alt="">
+                    <p class="listing__company">Posted by <span>Koco Media</span></p>
+                </header>
+                <ul class="listing__items">
+                    <li><img src="./images/money.svg" alt="">Salary Negotiable</li>
+                    <li><img src="./images/location.svg" alt="">Heyes, <b>Uxbridge</b> </li>
+                    <li><img src="./images/timer.svg" alt="">Contract, <b>full-time</b></li>
+                </ul>
+                <p class="listing__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies, velit quis faucibus scelerisque, risus nulla tristique sem, a condimentum mi neque quis lacus. Fusce congue massa id lacus elementum. <b>See more...</b></p>
+                <a href="" class="listing__cta">Withdraw application</a>
+            </div>
+            <div class="listing__card">
+                <header class="listing__header">
+                    <h1>Regular Affairs Senior Manager</h1>
+                    <img src="./images/star-saved.svg" class="listing__saved" alt="">
+                    <p class="listing__company">Posted by <span>Koco Media</span></p>
+                </header>
+                <ul class="listing__items">
+                    <li><img src="./images/money.svg" alt="">Salary Negotiable</li>
+                    <li><img src="./images/location.svg" alt="">Heyes, <b>Uxbridge</b> </li>
+                    <li><img src="./images/timer.svg" alt="">Contract, <b>full-time</b></li>
+                </ul>
+                <p class="listing__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies, velit quis faucibus scelerisque, risus nulla tristique sem, a condimentum mi neque quis lacus. Fusce congue massa id lacus elementum. <b>See more...</b></p>
+                <a href="" class="listing__cta">Withdraw application</a>
+            </div>
+            <div class="listing__card">
+                <header class="listing__header">
+                    <h1>Regular Affairs Senior Manager</h1>
+                    <img src="./images/star-saved.svg" class="listing__saved" alt="">
+                    <p class="listing__company">Posted by <span>Koco Media</span></p>
+                </header>
+                <ul class="listing__items">
+                    <li><img src="./images/money.svg" alt="">Salary Negotiable</li>
+                    <li><img src="./images/location.svg" alt="">Heyes, <b>Uxbridge</b> </li>
+                    <li><img src="./images/timer.svg" alt="">Contract, <b>full-time</b></li>
+                </ul>
+                <p class="listing__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies, velit quis faucibus scelerisque, risus nulla tristique sem, a condimentum mi neque quis lacus. Fusce congue massa id lacus elementum. <b>See more...</b></p>
+                <a href="" class="listing__cta">Withdraw application</a>
+            </div>
+            <ul class="paginate">
+                <li><a href="">< PREVIOUS</a> </li>
+                <li><a href="">NEXT ></a></li>
+            </ul>
+        </section>
+      </div>
+    </div>
+
+    <div class="cookie">
+      <p>JobPlus uses cookies. By continuing you are agreeing to our use of cookies. <a>Learn more.</a></p>
+      <img src="./images/cookie-close.svg" alt="">
+    </div>
+    </section>
+    
+
+    
+    <footer class="footer">COPYRIGHT &copy; JobPlus 2022</footer>
+  </body>
+
+</html>
