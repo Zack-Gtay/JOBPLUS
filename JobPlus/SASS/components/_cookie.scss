@@ -12,4 +12,10 @@
     a{
         text-decoration: underline;
     }
+
+    @include respond-to('small'){
+        text-align: center;
+    }
 }
+
+

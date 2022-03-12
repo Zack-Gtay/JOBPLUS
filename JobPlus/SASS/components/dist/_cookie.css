@@ -4,6 +4,7 @@
   background-color: var(--beta);
   color: var(--delta);
   padding: 12rem;
+  text-align: center;
   width: 100%;
   bottom: 40rem;
 }

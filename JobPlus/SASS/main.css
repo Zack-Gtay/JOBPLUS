@@ -716,4 +716,9 @@ h1 {
 }
 .cookie a {
   text-decoration: underline;
+}
+@media (min-width: 767px) {
+  .cookie {
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
