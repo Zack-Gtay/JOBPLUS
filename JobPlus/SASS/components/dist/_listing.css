@@ -19,7 +19,9 @@
 .listing__title {
   grid-row: 1/2;
   grid-column: 1/2;
-  color: var(--beta);
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: #e84188;
   font-size: 17rem;
 }
 .listing__saved {

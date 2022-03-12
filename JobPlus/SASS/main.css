@@ -557,6 +557,10 @@ h1 {
   line-height: 30rem;
   margin-bottom: 15rem;
 }
+.hero h2 {
+  font-size: 19rem;
+  color: var(--gamma);
+}
 @media (min-width: 767px) {
   .hero__wrap {
     max-width: 895rem;
@@ -651,7 +655,8 @@ h1 {
   grid-column: 1/2;
   align-self: center;
   z-index: 1;
-  font-family: "OpenSans ExtraBold";
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
   color: var(--light);
   font-size: 26rem;
   text-align: center;
