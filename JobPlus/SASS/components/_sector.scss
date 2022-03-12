@@ -1,0 +1,21 @@
+.sector{
+    padding: 10rem;
+    h2{
+        font-size: 26rem;
+        text-align: center;
+    }
+    p{
+        font-size: 14rem;
+        text-align: center;
+        margin-bottom: 20rem;
+    }
+
+    @include respond-to('small'){
+        h2{
+            font-size: 34rem;
+        }
+        p{
+            font-size: 18rem;
+        }
+    }
+}

@@ -544,7 +544,7 @@ h1 {
   background-color: var(--light);
 }
 .hero__bgimg {
-  background-image: url("../../images/hero-small.svg");
+  background-image: url("../../images/mockup.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -578,6 +578,7 @@ h1 {
   font-size: 17rem;
   font-weight: bold;
   color: var(--gamma);
+  outline: none;
 }
 .form__label__light {
   color: var(--light);
@@ -609,5 +610,31 @@ h1 {
   }
   .form__btn {
     padding: 11rem 15rem;
+  }
+}
+
+.container {
+  max-width: 895rem;
+  margin: 12rem auto;
+}
+
+.sector {
+  padding: 10rem;
+}
+.sector h2 {
+  font-size: 26rem;
+  text-align: center;
+}
+.sector p {
+  font-size: 14rem;
+  text-align: center;
+  margin-bottom: 20rem;
+}
+@media (min-width: 767px) {
+  .sector h2 {
+    font-size: 34rem;
+  }
+  .sector p {
+    font-size: 18rem;
   }
 }/*# sourceMappingURL=main.css.map */

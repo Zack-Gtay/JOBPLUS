@@ -5,6 +5,7 @@
   font-size: 17rem;
   font-weight: bold;
   color: var(--gamma);
+  
 }
 .form__label__light {
   color: var(--light);
@@ -13,6 +14,7 @@
   width: 100%;
   height: 40rem;
   padding: 10rem;
+  
 }
 .form__btn {
   background-color: var(--contrast);
