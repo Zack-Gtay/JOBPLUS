@@ -694,4 +694,26 @@ h1 {
     display: block;
     font-size: 15rem;
   }
+}
+
+.footer {
+  background-color: var(--gamma);
+  color: var(--delta);
+  padding: 12rem;
+  font-size: 13rem;
+  text-align: center;
+}
+
+.cookie {
+  display: grid;
+  grid-template-columns: 1fr -webkit-min-content;
+  grid-template-columns: 1fr min-content;
+  background-color: var(--beta);
+  color: var(--delta);
+  padding: 12rem;
+  width: 100%;
+  bottom: 40rem;
+}
+.cookie a {
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
