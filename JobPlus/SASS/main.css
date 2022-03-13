@@ -577,8 +577,34 @@ h1 {
   }
 }
 
+.form__page {
+  padding: 10rem;
+}
+.form__page footer {
+  font-size: 14rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+.form__page footer a {
+  color: var(--beta);
+  text-decoration: underline;
+}
 .form__group {
   margin-top: 18rem;
+}
+.form__group--page {
+  margin-bottom: 20rem;
+}
+.form__group--page input {
+  outline: none;
+  border-style: none;
+}
+.form__group--page:nth-of-type(2) input {
+  background-image: url("../../images/show-password.png");
+  background-repeat: no-repeat;
+  background-position: right 10rem center;
+  background-size: 20rem;
+  border-style: none;
 }
 .form__label {
   font-size: 17rem;
@@ -608,8 +634,11 @@ h1 {
     display: flex;
     align-items: flex-end;
   }
+  .form .form {
+    background-color: bisque;
+  }
   .form__group {
-    margin-right: 10rem;
+    margin-right: 10rem 10rem 10rem 20rem;
   }
   .form__field {
     min-width: 350rem;
