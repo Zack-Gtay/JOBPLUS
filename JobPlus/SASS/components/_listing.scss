@@ -2,6 +2,26 @@
     color: var(--gamma);
     margin: 30rem 10rem;
     
+
+    &__more{
+        h1{
+            margin:25rem 0;
+            font-size: 17rem;
+        }
+    }
+
+    &__skills{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            background-color: var(--skills);
+            border-radius: 16rem;
+            padding: 7rem 9rem;
+            font-size: 14rem;
+            margin-right: 10rem;
+            margin-bottom: 10rem;
+        }   
+    }
     &__card{
         border: 1px var(--beta) solid;
         background-color: var(--light);
@@ -9,6 +29,13 @@
         border-radius: 5rem;
         box-shadow: 1px 2px 3px 1px var(--elements);
         margin-bottom: 20rem;
+
+
+        &--apply{
+            border-radius: 0;
+            border: none;
+            box-shadow: none;
+        }
     }
 
     &__header{
@@ -78,15 +105,35 @@
         text-align: right;
         display: block;
 
-        &--light{
+        &__light{
             color: var(--beta);
         }
 
-        &--alert{
+        &__alert{
             color: var(--alert);
         }
     }
 
+    &__saved_summary{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15rem;
+
+        li:first-of-type{
+            display: flex;
+            span{
+                margin-right: 10rem;
+            }
+        }
+
+        li:last-of-type{
+            background-color: var(--elements);
+            color: var(--light);
+            padding: 2rem 3rem;
+            border-radius: 4rem;
+            font-size: 15rem;
+        }
+    }
     @include respond-to('small'){
         display: grid;
         grid-template-columns: min-content 1fr;
