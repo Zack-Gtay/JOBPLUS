@@ -580,6 +580,9 @@ h1 {
 .form__checkbox {
   margin-top: 5rem;
 }
+.form__checkbox input {
+  margin-right: 10px;
+}
 .form__textarea {
   width: 100%;
   height: 200rem;
@@ -613,7 +616,7 @@ h1 {
   font-weight: bold;
   color: var(--gamma);
 }
-.form__label--light {
+.form__label__light {
   color: var(--light);
 }
 .form__field {
